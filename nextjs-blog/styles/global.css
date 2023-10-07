@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Suisse Int\'l';
+    src: url('../assets/suisse/Suisse-Intl-Medium.ttf');
+  }
+
+  @font-face {
+    font-family: 'Suisse Int\'l 21';
+    src: url('../assets/suisse/Suisse-Intl-Medium.ttf');
+    size-adjust: 21%;
+  }
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-family: "Suisse Int'l";
+}
+
+h1, h2, p {
+  all: unset;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

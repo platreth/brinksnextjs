@@ -1,0 +1,65 @@
+
+.backgroundText {
+    background: #000;
+    padding-bottom: 6.25rem;
+    padding-top: 7.62rem;
+}
+
+.backgroundText h2 {
+    color: #FFF;
+    font-family: "Suisse Int'l";
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.2rem;
+}
+
+.backgroundText p {
+    color: #FFF;
+    font-family: "Suisse Int'l";
+    font-size: 1.3125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.1rem;
+    text-align: left;
+}
+
+.backgroundTextContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2.19rem;
+    margin-right: .62rem;
+    margin-left: .62rem;
+    padding-bottom: 2.5rem;
+}
+
+.rectanglePicture {
+    height: 17.0625rem;
+    flex-shrink: 0;
+    background: #5F35F7;
+    margin-bottom: 2.5rem;
+}
+
+.line {
+    stroke-width: 1px;
+    stroke: #FFF;
+    height: 0rem;
+    flex-shrink: 0;
+    margin-bottom: 6.25rem;
+    margin-top: 6.25rem;
+  }
+
+.squarePicture {
+    background: #5F35F7;
+    height: 24.625rem;
+    flex-shrink: 0;
+    margin-right: .62rem;
+    margin-left: .62rem;
+    margin-bottom: 2.5rem;
+}
+
+
+@media (min-width:1280px){
+
+}
