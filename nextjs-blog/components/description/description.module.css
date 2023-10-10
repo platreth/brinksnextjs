@@ -31,3 +31,19 @@
     font-weight: 500;
     line-height: 2.1rem;
 }
+
+@media (min-width:1280px){
+    .description {
+        width: 37.5rem;
+        margin: auto;
+    }
+
+    .textContainer h2 {
+        font-size: 2.625rem;
+        line-height: 2.8875rem;
+    }
+
+    .textContainer {
+        margin-bottom: 6.25rem;
+    }
+}

@@ -48,6 +48,9 @@
     flex-shrink: 0;
     margin-bottom: 6.25rem;
     margin-top: 6.25rem;
+    width: calc(100% - 2.5rem);
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
   }
 
 .squarePicture {
@@ -59,7 +62,105 @@
     margin-bottom: 2.5rem;
 }
 
+.textContainer {
+    display: flex;
+    flex-direction: column;
+}
+
 
 @media (min-width:1280px){
 
+    .backgroundText {
+        display: flex;
+        flex-direction: column;
+    }
+    .backgroundText h2 {
+        font-size: 2.625rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 2.8875rem;
+        width: 100%;
+        text-align: left;
+    }
+
+    .backgroundTextContainer p {
+        width: 100%;
+        text-align: left;
+    }
+
+    .backgroundTextContainer {
+        flex-direction: row;
+        gap: 12.69rem;
+        margin-right: 1.25rem;
+        margin-left: 1.25rem;
+    }
+
+    .backgroundTextContainer p:nth-child(1) {
+        margin-bottom: 1.5rem;
+    }
+
+    .backgroundTextContainer .rectanglePicture {
+        display: none;
+    }
+
+    .rectanglePictureDesk {
+        background: #4425B2;
+        position: absolute;
+        right: 0;
+        top: 20rem;
+    }
+
+    .rectanglePicture, .rectanglePictureDesk {
+        height: 26.875rem;
+        width: 57%;
+        margin-right: 1.25rem;
+        margin-left: 1.25rem;
+        margin-bottom: 26.25rem;
+    }
+
+    .rectanglePictureContainer {
+        position: relative;
+    }
+
+    .bottomContainer {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 2.5rem;
+        margin-left: 1.25rem;
+    }
+
+    .squarePicture {
+        width: 30.5%;
+        margin-right: unset;
+        margin-left: unset;
+    }
+}
+
+@media (max-width: 1280px){
+    .backgroundTextContainer .rectanglePicture {
+        order: 3;
+        margin-left: -0.62rem;
+        margin-right: -0.62rem;
+    }
+
+    .backgroundText p:nth-child(2) {
+        order: 4;
+    }
+
+    .backgroundText p:nth-child(1) {
+        order: 2;
+        margin-bottom: 2.5rem;
+    }
+
+    .backgroundText {
+        margin-right: -1rem;
+    }
+
+    .backgroundTextContainer {
+        padding-bottom: 1.5rem;
+    }
+
+    .rectanglePictureDesk {
+        display: none;
+    }
 }

@@ -1,0 +1,31 @@
+.pictures {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-bottom: 6.25rem;
+}
+
+.picture {
+    height: 18.125rem;
+    background: #5F35F7;
+    width: 100%;
+}
+
+.pictureMiddle {
+    height: 38.75rem;
+    background: #5F35F7;
+    width: 100%;
+}
+
+.leftPictureContainer, .rightPictureContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2.5rem;
+}
+
+.picturesContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
